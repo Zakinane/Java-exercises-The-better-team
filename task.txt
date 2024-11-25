@@ -1,0 +1,61 @@
+Solve those exercises before this Friday, 
+
+Exos:
+
+1 - write a console app that scans user name & print Hello <user-name> 
+
+2 - write a console app that takes two numbers and apply +, /,*,^,- .... based on the users target opération.... 
+Hint : use switch statement 
+
+3 - write a console app that takes a matrix as input (of size N*N) and print it square ( ie : putting M is matrix the expected out put is : M*M )
+
+4 - console application to deal with tables ( find max value/ find min value / order table AtoZ & ZtoA / deleting element from table / adding element to the table...)....
+Alll based on the users input your console should decide which opération it should execute 
+
+5 - console app that gets the current system time and print  ...
+Good morning-> if it's 3am to 12pm
+Good afternoon-> "" 12pm to 4pm
+Good evening-> "" 4pm to 9pm
+Good night-> "" 9pm to 3 am
+
+6 -  crypting messages :
+Message + int ---> |  console  |  ---> crypted message 
+
+Example: 
+I love java + 10 -> |  console  | ---> Svy�o}tk�k
+Where:
+S =(int) I + 10
+v = (int) v + 10
+...
+And so on 
+
+7 - console that picks a random number from the list: 
+6,0,0,7,18,18,1,5
+
+Which numbers have the highest chance of being picked ? 
+How to force them to have all the same chance?
+How to make the numbers with high chances to be the lowest chance and vice-versa? (Without changing the structure of your table)
+
+ SUBMITTING 
+your code should be on github
+search for clean code principles and apply them
+each one should try to solve the exercises alone
+each team should provide doc to explain their solutions and why you think it's the best solution
+
+
+NOTES
+dead line 29/11 at 5pm
+@salah bouafia and @Zaki Djaba you're responsible on your teams
+
+ EVALUATION 
+1 pt -> for solution
+1 pt -> for clean code principles
+2 pt -> for creativity
+5 pt -> for optimisation ( space & speed )
+1 pt -> for the doc
+ 
+The winning team will have +⭐️
+
+So in the end of  the next 2 weeks the top 2 personnes with the high number of ⭐️ will get sticker && VIP access to any Mentor private or public formations 
+
+For the 3rd, 4th and 5th places will get stickers only 👀
