@@ -22,8 +22,12 @@ public class Exo5 {
             System.out.println("Good morning.");
 
         // fun addition
+        BufferedReader br = new BufferedReader(new FileReader("./Exo5stuff.txt"));
+
         Boolean clockMode = true;
         if(clockMode == true){
+            String line;
+            
             
         }
 
