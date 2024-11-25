@@ -20,5 +20,12 @@ public class Exo5 {
             System.out.println("Good afternoon.");
         else if(time >= 3)
             System.out.println("Good morning.");
+
+        // fun addition
+        Boolean clockMode = true;
+        if(clockMode == true){
+            
+        }
+
     }
 }
