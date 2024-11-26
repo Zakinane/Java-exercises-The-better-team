@@ -88,6 +88,9 @@ public class Exo4 {
                     break;
                 case 5: // Delete an element from the table
                     cls();
+                    System.out.print("Give the index of the element you want to remove : ");
+                    int removedIndex = input.nextInt();
+                    table.remove(removedIndex);
                     break;
                 case 6: // Add an element to the table
                     cls();

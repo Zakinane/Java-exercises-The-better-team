@@ -20,7 +20,7 @@ public class n2 {
 			r=n1+n2;
 			break;
 		case "-":
-			r=n1*n2;
+			r=n1-n2;
 			break;
 		case "*":
 			r=n1*n2;
