@@ -24,7 +24,7 @@ public class Exo6 {
         int value = input.nextInt();
 
         // Crypting
-        StringBuilder sb = new StringBuilder(); // let us concatenate chars
+        StringBuilder sb = new StringBuilder(); // lets us concatenate chars
         for (int i = 0; i < message.length(); i++) {
             int cryptedInt = message.charAt(i) + value;
             char cryptedChar = (char) cryptedInt;

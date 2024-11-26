@@ -9,6 +9,7 @@ public class Exo1 {
     public static final String RESET = "\u001B[0m";
 
     public static void main(String[] args) {
+
         // Declaration of the input variable
         Scanner input = new Scanner(System.in);
 
@@ -16,13 +17,14 @@ public class Exo1 {
         System.out.print("Enter your name : ");
         String name = input.nextLine();
 
-        // Printing the name
+        // Easter egg
         if (name.compareToIgnoreCase("Rayane") == 0) {
             System.out.println("Hey " + GREEN + name + RESET + "!");
             return;
 
         }
 
+        // printing the name
         System.out.println("Hello " + name);
 
         input.close();

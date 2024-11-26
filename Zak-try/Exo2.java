@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Exo2 {
     public static void main(String[] args) {
+
         // Declaration of the input variable
         Scanner input = new Scanner(System.in);
 
@@ -17,16 +18,17 @@ public class Exo2 {
         System.out.print("Chose the operation (+, -, /, *, ^) : ");
         char operation = input.next().charAt(0);
 
-        // Choosing what to print depending on the operation
         switch (operation) {
             // addition
             case '+':
                 System.out.print("The result is : " + (number1 + number2));
                 break;
+
             // Substraction
             case '-':
                 System.out.print("The result is : " + (number1 - number2));
                 break;
+
             // Division
             case '/':
                 if (number2 == 0)
@@ -34,14 +36,17 @@ public class Exo2 {
                 else
                     System.out.print("The result is : " + (double) number1 / number2);
                 break;
+
             // Multiplication
             case '*':
                 System.out.print("The result is : " + (number1 * number2));
                 break;
             // Power
             case '^':
+
                 System.out.print("The result is : " + (int) Math.pow(number1, number2));
                 break;
+                
             default:
                 System.out.println("Incorrect operation symbol.");
         }
