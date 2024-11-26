@@ -35,7 +35,7 @@ public class Exo5 {
             if (clockMode == true) {
 
                 String line;
-                int lineStart = time * 6 - 11;
+                int lineStart = (time % 12) * 12 + 1;
                 int numLine = 0;
 
                 while ((line = br.readLine()) != null) {
