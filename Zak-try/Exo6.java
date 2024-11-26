@@ -32,5 +32,7 @@ public class Exo6 {
         }
         String cryptedMessage = sb.toString();
         System.out.println(cryptedMessage);
+        
+        input.close();
     }
 }

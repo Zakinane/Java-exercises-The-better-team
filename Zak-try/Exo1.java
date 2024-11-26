@@ -25,5 +25,7 @@ public class Exo1 {
 
         System.out.println("Hello " + name);
 
+        input.close();
+
     }
 }

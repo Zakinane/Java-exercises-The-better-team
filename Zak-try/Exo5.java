@@ -53,6 +53,5 @@ public class Exo5 {
         } catch (IOException e) {
 
         }
-
     }
 }

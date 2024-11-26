@@ -123,5 +123,6 @@ public class Exo4 {
                     System.out.println("[!] Choose an existing action.\n");
             }
         } while (choice != 7);
+        input.close();
     }
 }

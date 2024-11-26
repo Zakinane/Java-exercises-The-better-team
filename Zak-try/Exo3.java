@@ -36,5 +36,7 @@ public class Exo3 {
             }
             System.out.println();
         }
+        input.close();
+
     }
 }

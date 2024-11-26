@@ -45,6 +45,7 @@ public class Exo2 {
             default:
                 System.out.println("Incorrect operation symbol.");
         }
-    }
+        input.close();
 
+    }
 }
