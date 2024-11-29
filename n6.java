@@ -24,14 +24,13 @@ public class n6 {
         int value = input.nextInt();
 
         // Crypting
-        StringBuilder sb = new StringBuilder(); // lets us concatenate chars
-        for (int i = 0; i < message.length(); i++) {
-            int cryptedInt = message.charAt(i) + value;
-            char cryptedChar = (char) cryptedInt;
-            sb.append(cryptedChar);
+        StringBuilder cryptedMessage = new StringBuilder(message.length()); // used to concat chars
+        for (char c : message.toCharArray()) {
+            cryptedMessage.append((char) (c + value));
         }
-        String cryptedMessage = sb.toString();
-        System.out.println(cryptedMessage);
+
+        // Printing the message
+        System.out.println("Crypted message: " + cryptedMessage);
         
         input.close();
     }
