@@ -9,7 +9,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.time.LocalTime;
 
-public class Exo5 {
+public class n5 {
     public static void main(String[] args) {
 
         // Get the current hour (no minutes)

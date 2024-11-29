@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map.Entry;
 
 
-public class Exo7 {
+public class n7 {
     public static void main(String[] args) {
 
         // Declare and Initialise the list

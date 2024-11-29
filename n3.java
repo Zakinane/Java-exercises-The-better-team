@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-public class Exo3 {
+public class n3 {
     public static void main(String[] args) {
 
         // Declaration of the input variable
@@ -15,7 +15,6 @@ public class Exo3 {
 
         // Declaration of the matrix
         int[][] matrix = new int[N][N];
-        int[][] square = new int[N][N];
 
         // Filling up the matrix
         for (int i = 0; i < N; i++) {
@@ -25,14 +24,15 @@ public class Exo3 {
             }
         }
 
-        // Calculate the squared matrix + printing
+        // Calculate the each squared matrix element + printing
         System.out.println("The square of the matrix is :");
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
+                int sum = 0;
                 for (int k = 0; k < N; k++) {
-                    square[i][j] += matrix[i][k] * matrix[k][j];
+                    sum += matrix[i][k] * matrix[k][j];
                 }
-                System.out.print(square[i][j] + " ");
+                System.out.print(sum + " ");
             }
             System.out.println();
         }

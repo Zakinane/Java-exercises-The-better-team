@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Exo1 {
+public class n1 {
 
     // for styleee
     public static final String GREEN = "\u001B[32m";
@@ -17,17 +17,14 @@ public class Exo1 {
         System.out.print("Enter your name : ");
         String name = input.nextLine();
 
-        // Easter egg
-        if (name.compareToIgnoreCase("Rayane") == 0) {
-            System.out.println("Hey " + GREEN + name + RESET + "!");
-            return;
+        // Greeting the person
+        String greeting = name.equalsIgnoreCase("Rayane") 
+        ? "Hey " + GREEN + name + RESET + "!" // Easter egg
+        : "Hello " + name;
 
-        }
-
-        // printing the name
-        System.out.println("Hello " + name);
+        // Printing the greetings
+        System.out.println(greeting);
 
         input.close();
-
     }
 }

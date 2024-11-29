@@ -9,7 +9,7 @@
 
 import java.util.Scanner;
 
-public class Exo6 {
+public class n6 {
     public static void main(String[] args) {
 
         // Declaration of the input variable
