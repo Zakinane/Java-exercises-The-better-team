@@ -1,6 +1,17 @@
 import java.time.LocalTime;
 import java.util.Scanner;
 
+
+/* General notes :
+- it's funny the inf greeting loop
+*/
+
+/** Evaluation :
+ * 1pt -> for the solution
+ * 0.5 pt -> for the clean code principles //The reason for why u won't get full point (1pt): for not using methods when u should
+ * 2.5 pt -> space optimization
+ * 2.5 pt -> speed optimization
+ * TOTAL :  6.5 */
 public class n5 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

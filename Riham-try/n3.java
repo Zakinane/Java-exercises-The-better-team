@@ -1,6 +1,19 @@
 package devUp;
 import java.util.*;
 
+
+/* General notes :
+-  the comments are made to explain what's done and not how it is done
+- u should use methods here
+- the scanner.close() :: should be used after the input has been scanned not in the end of programme
+*/
+
+/** Evaluation :
+ * 1 pt   -> for the solution
+ * 0.5 pt -> for the clean code principles //The reason for why u won't get full point (1pt): for not using methods when u should
+ * 2.5 pt -> space optimization
+ * 2.5 pt -> speed optimization
+ * TOTAL :  6.5 */
 public class n3 {
 
 	public static void main(String[] args) {

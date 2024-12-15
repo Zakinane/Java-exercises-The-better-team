@@ -1,5 +1,20 @@
 import java.util.Scanner;
 
+
+/* General notes :
+-  the comments are made to explain what's done and not how it is done
+- u should use methods here
+- the scanner.close() :: should be used after the input has been scanned not in the end of programme
+*/
+
+/** Evaluation :
+ * 1 pt   -> for the solution
+ * 0.5 pt -> for the clean code principles //The reason for why u won't get full point (1pt): for not using methods when u should
+ * 0.5 pt -> for creativity and using byte data type
+ * 2.5 pt -> space optimization
+ * 2.5 pt -> speed optimization
+ * TOTAL :  7 */
+
 public class exo2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -24,7 +39,7 @@ public class exo2 {
                             System.out.println(fn + " * " + sn + " = " + (fn * sn));
                             break;
                         case 4:
-                            System.out.println(fn + " / " + sn + " = " + (fn / sn));
+                            System.out.println(fn + " / " + sn + " = " + (fn / sn)); // what if sn == 0 ?
                             break;
                         case 5:
                         System.out.println(fn+" ^ "+sn+" = "+Math.pow(fn,sn));

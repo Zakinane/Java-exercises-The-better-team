@@ -1,0 +1,9 @@
+Exo1 = 8.5
+Exo2 = 6.5
+Exo3 = 6.5
+Exo4 = 5.25
+Exo5 = 6.5
+Exo6 = 6.5
+Exo7 = 1.5 (for trying and being close to the answer)
+
+total = 41.25

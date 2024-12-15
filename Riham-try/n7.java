@@ -2,6 +2,9 @@
 import java.util.Random;
 import java.util.Scanner;
 
+/** Evaluation :
+ * 0pt -> for the solution // not the required answer
+ * TOTAL : 0 */
 public class n7 {
     public static void main(String[] args) {
         int[] n = {6, 0, 0, 7, 18, 18, 1, 5};
