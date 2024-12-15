@@ -1,10 +1,23 @@
 import java.util.Scanner;
+
+/* General notes :
+- u should use methods here
+- the scanner.close() :: should be used after the input has been scanned not in the end of programme
+*/
+
+/** Evaluation :
+ * 1 pt   -> for the solution
+ * 0.5 pt -> for the clean code principles //The reason for why u won't get full point (1pt): for not using methods when u should && vars without meaning
+ * 2.5 pt -> space optimization
+ * 2.5 pt -> speed optimization
+ * TOTAL : 6.5 */
+
 public class exo4 {
 public static void main(String[] args) {
     Scanner in=new Scanner(System.in);
     System.out.println("Enter the size of the array:");
     byte size=in.nextByte();
-    int array[]=new int[size];
+    int array[]=new int[size]; // C syntax !!!
     for (int i = 0; i < array.length; i++) {
         System.out.print("Enter the "+(i+1)+" value: ");
         array[i]=in.nextInt();
